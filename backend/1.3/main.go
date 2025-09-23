@@ -14,4 +14,7 @@ func main() {
 
 	s := "MCMXCIV"
 	fmt.Println(romanToInt(s))
+
+	par := "([)}"
+	fmt.Println(valid(par))
 }
