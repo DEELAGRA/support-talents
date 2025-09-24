@@ -17,4 +17,7 @@ func main() {
 
 	par := "([)}"
 	fmt.Println(valid(par))
+
+	oneplus := []int{4,3,2,1}
+	fmt.Println(plusOne(oneplus))
 }
