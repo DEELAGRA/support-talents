@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func file() {
 	err := os.WriteFile("hellofile.txt", []byte("Привет программист!"), 0600)
 	if err != nil {
 		log.Fatal(err)
