@@ -24,5 +24,6 @@ func timeHandler(w http.ResponseWriter, r *http.Request) {
 func helloHandler(w http.ResponseWriter, r *http.Request) {
 	if r.URL.Path == "/" {
 		fmt.Fprintln(w, "Ты попал на мой сервер")
+		fmt.Fprintln(w, "Если перейде по ссылке http://localhost:8080/time, то узнаешь который час.")
 	}
 }
