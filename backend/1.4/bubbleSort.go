@@ -1,6 +1,6 @@
 package main
 
-func bublesort(arr []int) {
+func bubblesort(arr []int) {
 	n := len(arr)
 	for i := 0; i < n; i++ {
 		for j := 0; j < n-i-1; j++ {
